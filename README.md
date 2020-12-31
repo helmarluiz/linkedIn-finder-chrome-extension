@@ -1,0 +1,1 @@
+# linkedIn-finder-chrome-extension
