@@ -5,42 +5,33 @@
   
 ## Overview 
 
-From Facebook and MeetUp interface, we present a one-click function to easily find users, from a segment, on LinkedIn. Now, you can connect with people with the same interest, members from the same groups or even nearby you.
+From Facebook and MeetUp interface, we present a one-click function to easily find users, from a segment, on LinkedIn. Now, you can easily connect with people with the same interest, members from the same groups or even nearby you.
 
-![interface facebook](screenshots/facebook_1280x800.jpg =500x)
-![interface meetup](screenshots/meetup_1280x800.jpg =500x)
-![interface linkedin](screenshots/linkedin_1280x800.jpg =500x)
+![interface facebook](screenshots/facebook.png)
+![interface meetup](screenshots/meetup.png)
  
 
 ## Installation
 
 - On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/linkedin-finder/paoenkdapheefbfbkjhfeodpjfmfeehg)
   
-  
- 
  
 
-## Get Started
+## Development version
 
   
 
-Type this into your terminal:
+Steps to build the extension and view your changes in a browser:
 
   
 
 ```sh
 
-git clone https://github.com/extend-chrome/javascript-boilerplate
+git clone https://github.com/helmarjunior/linkedIn-finder-chrome-extension
 
 npm install
 
 ```
-
-  
-
-### Development
-
-  
 
 For development with automatic reloading:
 
@@ -54,16 +45,12 @@ npm run start
 
   
 
-Open the [Extensions Dashboard](chrome://extensions), make sure "Developer mode"
+Open the [Extensions Dashboard](chrome://extensions), make sure "Developer mode" is switched on, click "Load unpacked", and choose the `dist` folder.
 
-is switched on, click "Load unpacked", and choose the `dist` folder.
-
-  
 
 ### Production
 
   
-
 You'll want to make a production build when it's time to publish your Chrome
 
 Extension. Run the following line:
@@ -76,18 +63,11 @@ npm run build
 
 ```
 
-  
 
-This will create a ZIP file with your package name and version in the `releases`
+This will create a ZIP file with your package name and version in the `releases` folder.
 
-folder.
-
-  
 
 ## Source Layout
 
-  
 
-Your manifest is at `src/manifest.json`, and Rollup will bundle any files you
-
-include here. All the filepaths in your manifest should point to files in `src`.
+Your manifest is at `src/manifest.json`, and Rollup will bundle any files you include here. All the filepaths in your manifest should point to files in `src`.
